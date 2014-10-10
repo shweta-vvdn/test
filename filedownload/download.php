@@ -1,7 +1,7 @@
 <?php 
 // Force download of image file specified in URL query string and which 
 // is in the same directory as this script: 
-if(!empty($_GET['path'])) 
+if(!empty($_GET['path'])
 { 
    $filename = $_GET['path']; // don't accept other directories // don't accept other directories 
     $size = @getimagesize($filename);
