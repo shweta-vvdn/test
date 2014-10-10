@@ -7,5 +7,6 @@ function populateIframe(path)
 </script>
  
 <iframe id="frame1" style='display:none'></iframe>
-<a href="#" onClick="populateIframe('https://www.filepicker.io/api/file/2rqECtuqQPSsi8fv1ZiM');">download</a>
+<a href="#" onClick="populateIframe('https://www.filepicker.io/api/file/2rqECtuqQPSsi8fv1ZiM');">download file</a>
 </a>
+
